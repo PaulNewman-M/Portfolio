@@ -13,7 +13,7 @@ body{
 .nosifer{
   font-family:nosifer caps;
 }
-img{
+.imgphoto{
   width:1280px;
   clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
   
@@ -50,8 +50,28 @@ img{
 }
 
 .seconddiv{
+  min-height:600px;
   background-color:#C1E1A6;
 }
+.thirddiv{
+  min-height:900px;
+  background-color:#585858;
+}
+.imageheight{
+  
+}
+.skillsheight{
+  background-height:50px;
+}
+
+.paddingskills{
+  padding:80px;
+  min-height:45px;
+  min-width:25px;
+  margin :30px 20px;
+}
+
+
 
 h4{
   font-family:Josefin Slab;
