@@ -1,5 +1,5 @@
 
-ver(function() {
+$('#target3').hover(function() {
      $('#target3').stop().animate({'margin-left': '100px'}, 1000);
 }, function() {
      //your unhover logic
