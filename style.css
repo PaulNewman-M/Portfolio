@@ -1,0 +1,69 @@
+der {
+  position: fixed;
+  width: 100%;
+  height:10%;
+  top: 0;
+  z-index: 1;
+  opacity:0.9;
+  
+}
+#content {
+  margin-top: 120px;
+}
+h4,body{
+  font-family:Lobster,Monospace;
+}
+
+.radius{
+  border-radius:50%;
+}
+.radius1{
+  border-radius:35%;
+}
+.dodgerblue{
+  color:	dodgerblue;
+}
+
+.other-class{
+  background-color:white;
+}
+.other-class1{
+  background-color:#A0D4A4;
+}
+.btn-round{
+border-radius: 15px;
+  color:dodgerblue;
+  border-color:;
+ background-color:white;
+}
+.black-border{
+  border-color:gray;
+}
+.margin{
+  padding:20px;
+}
+.container1 {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+.container2 {
+	max-width:800px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	}
+
+	.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #084461;
+	  color: #fff;
+	}
