@@ -13,13 +13,8 @@ body{
 .nosifer{
   font-family:nosifer caps;
 }
-<<<<<<< HEAD
 .imgphoto{
   width:1280px;
-=======
-img{
-  width:13000px;
->>>>>>> 3973214e277be8b24ed6bda8191ea9a75b89532f
   clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
   
 }
