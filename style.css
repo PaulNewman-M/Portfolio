@@ -3,17 +3,22 @@ body{
   color:#FDF3E7;
 }
 .pm{
-  height:80px;
+  height:80%;
   background-color:#ECECEA;
   color:black;
-  padding:5%;
-  margin:5px;
+  padding:3%;
+  margin:1%;
   
 }
 .nosifer{
   font-family:nosifer caps;
 }
 .imgphoto{
+  width:1280px;
+  clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+  
+}
+.forthdiv{
   width:1280px;
   clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
   
@@ -31,12 +36,12 @@ body{
   height:10%;
   top: 0;
   z-index: 1;
-  opacity:0.8;
+  opacity:0.9;
   background-color:#E44424;
   color:white;
 }
 .headheight{
-  padding:40px;
+  padding:2%;
 }
 .firstdiv{
   
@@ -54,8 +59,25 @@ body{
   background-color:#C1E1A6;
 }
 .thirddiv{
-  min-height:900px;
-  background-color:#585858;
+  min-height:1400px;
+  background-color:#FFFFFF;
+  border:black;
+}
+.projectpadding{
+  padding:25px;
+}
+.portfolio{
+     min-width: 400px;
+    min-height: 400px;
+    background-color: powderblu;
+  background-color:white;
+  
+  margin:20px 10px;
+}
+.forthdiv{
+    min-height:600px;
+  background-color:#2B2B2B;
+  opacity:0.8;
 }
 .imageheight{
   
@@ -138,7 +160,45 @@ border-radius: 15px;
     border-color: #084461;
   }
 
-  .btn-linkedin:active, .btn-linkedin:hover {
-    background: #084461;
-    color: #fff;
-  }
+
+
+.fa {
+  padding: 40px;
+  font-size: 25px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius: 50%;
+}
+.contactsize li{
+  font-size:50px;
+  margin:5px;
+}
+.end{
+  margin:1cm;
+  padding:1cm;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.faa:hover{
+  opacity:0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: #999;
+  color: white;
+}
+.iradius{
+ 
+  border-radius: 50%;
+}

@@ -31,6 +31,11 @@ $("#skills").click(function() {
 
 $("#contacts").click(function() {
     $('html, body').animate({
-        scrollTop: $("#target5").offset().top
+        scrollTop: $(".forthdiv").offset().top
+    }, 1000);
+});
+$("#projects").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".thirddiv").offset().top
     }, 1000);
 });
